@@ -25,6 +25,42 @@
       </nav>
 
     </header>
+    <section class="row">
+      <div class="grid">
+        <section class="col-2-3">
+          <h2>Purchase a Conference Pass</h2>
+          <h5>$99 per Pass</h5>
+          <h4>Why Attend?</h4>
+          <ul class="why-attend">
+            <li>Over twenty world-class speakers</li>
+          </ul>
+        </section><!--
+        --><form class="col-1-3" action="#" method="post">
+          <fieldset class="register-group">
+            <label>
+              Name
+              <input type="text" name="name" placeholder="Full name" required>
+            </label>
+
+            <label>
+              Email
+              <input type="email" name="email" placeholder="Email address" required>
+            </label>
+            <label>
+              Number of Passes
+              <select name="quantity"required>
+            <option value="1" selected>1</option>
+            <option value="2">2</option>
+              </select>
+            </label>
+            <label>
+            Comments
+            <textarea name="comments"></textarea></label>
+          </fieldset>
+          <input class="btn btn-default" type="submit" name="submit" value="Purchase">
+        </form>
+      </div>
+    </section>
       <footer class="primary-footer container group">
               <small>&copy; Styles Conference</small>
                  <nav class="nav">
